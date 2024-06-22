@@ -1,0 +1,30 @@
+body header{
+    background-image: url('Img/hedaer.jpg');
+    text-shadow: 
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+body nav{
+        margin-top: 90px;
+        text-shadow: 
+        -1px -1px 0 #045c01,  
+        1px -1px 0 #045c01,
+        -1px 1px 0 #045c01,
+        1px 1px 0 #045c01;
+}
+
+body main {
+    margin-top: 100px;
+}
+
+:target::before {
+    display: block;
+    content: "";
+    margin-top: -150px; 
+    height: 150px; 
+    visibility: hidden;
+}
+
+
