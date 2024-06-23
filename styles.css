@@ -37,6 +37,11 @@ p.text-justify{
     text-align: justify;
 }
 
+p.icon-paragraph {
+    display: flex;
+    align-items: center;
+}
+
 ul.circle{
     list-style-type: circle;
 }
