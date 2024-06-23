@@ -1,6 +1,7 @@
 body{
     background-color: #e2f0fa;
 }
+
 body header{
     background-image: url('Img/hedaer.jpg');
     text-shadow: 
@@ -9,24 +10,33 @@ body header{
         -1px 1px 0 #000,
         1px 1px 0 #000;
 }
+
 body header h1{
     font-family: "Clarendon Blk BT", Times, serif;
 }
 
+body header h1 img{
+    
+    width:80px;
+    height: auto;
+   
+}
+
 body nav{
-        margin-top: 90px;
+        margin-top: 135px;
         text-shadow: 
         -1px -1px 0 #045c01,  
         1px -1px 0 #045c01,
         -1px 1px 0 #045c01,
         1px 1px 0 #045c01;
 }
+
 body nav a{
     font-family: "Arial Black", Times, serif;
 }
 
 body main {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 body main h2{
@@ -49,8 +59,8 @@ ul.circle{
 :target::before {
     display: block;
     content: "";
-    margin-top: -150px; 
-    height: 150px; 
+    margin-top: -200px; 
+    height: 200px; 
     visibility: hidden;
 }
 
