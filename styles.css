@@ -33,6 +33,14 @@ body main h2{
     font-family: "Cambria", Times, serif;
 }
 
+p.text-justify{
+    text-align: justify;
+}
+
+ul.circle{
+    list-style-type: circle;
+}
+
 :target::before {
     display: block;
     content: "";
